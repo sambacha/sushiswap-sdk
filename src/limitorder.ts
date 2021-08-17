@@ -17,7 +17,7 @@ import { Transaction } from "@ethersproject/transactions";
 import { Web3Provider } from "@ethersproject/providers";
 import abi from "./abis/StopLimitOrder.json";
 import { defaultAbiCoder } from "@ethersproject/abi";
-import fetch from "isomorphic-unfetch";
+import fetch from "unfetch";
 import { keccak256 } from "@ethersproject/solidity";
 import { validateAndParseAddress } from "./functions/validateAndParseAddress";
 
